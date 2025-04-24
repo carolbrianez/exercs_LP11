@@ -5,8 +5,8 @@
 #define NOTA 4 
 
 int main() {
-  float notas[NOTA];
-  float total = 0.0;
+  double notas[NOTA];
+  double total = 0.0;
 
   printf("Digite quatro notas:\n");
   for (int i = 0; i < NOTA; i++) {
