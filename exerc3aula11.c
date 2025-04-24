@@ -10,7 +10,7 @@ int main() {
 
   printf("Digite quatro notas:\n");
   for (int i = 0; i < NOTA; i++) {
-    scanf("%f", &notas[i]);
+    scanf("%lf", &notas[i]);
   }
 
   for (int i = 0; i < NOTA; i++) {
